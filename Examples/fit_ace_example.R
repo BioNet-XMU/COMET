@@ -1,0 +1,6 @@
+args <- commandArgs(trailingOnly=TRUE)
+source(file.path(args[1], 'Algorithm', 'ace_fixed_y_classic.R'))
+x <- as.matrix(read.csv(args[2], header=FALSE))
+y <- scan(args[3], quiet=TRUE)
+z <- sapply(seq_len(ncol(x)), function(j) ace_fixed_y_classic(x[,j], y)$tx)
+write.table(z, args[4], row.names=FALSE, col.names=FALSE, sep=',')

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and acknowledge the original datasets when using these materials."
+title: "Data Transformations for Enhancing the Linear Visibility of Metabolite–Phenotype Associations in Metabolomics"
+type: software
+version: "2026.11.14-revision"
+date-released: 2026-11-14
+authors:
+  - family-names: Li
+    given-names: Jiaoyang
+  - family-names: Dong
+    given-names: Liheng
+  - family-names: Lin
+    given-names: Huaiyin
+  - family-names: Cheng
+    given-names: Kian-Kai
+  - family-names: Deng
+    given-names: Lingli
+  - family-names: Raftery
+    given-names: Daniel
+  - family-names: Dong
+    given-names: Jiyang
+repository-code: "https://github.com/BioNet-XMU/COMET"
+url: "https://github.com/BioNet-XMU/COMET"
